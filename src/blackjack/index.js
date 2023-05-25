@@ -75,7 +75,7 @@ const miModulo = (() => {
             const carta = pedirCarta(deck);
             puntos_computador = acumularPuntos(carta, puntos_jugadores.length - 1);
             crearCarta(carta, puntos_jugadores.length - 1);
-        } while ((puntos_computador < puntos_minimos) && (puntos_minimos <= 21));
+        } while ((puntos_computador < puntos_minimos));
         determinarGanador();
     };
 
