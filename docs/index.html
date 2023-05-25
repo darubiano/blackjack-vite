@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlackJack Vite</title>
+  <script type="module" crossorigin src="/blackjack-vite/assets/index-a2bc6683.js"></script>
+  <link rel="stylesheet" href="/blackjack-vite/assets/index-9e7bbfeb.css">
+</head>
+
+<body>
+  <header class="titulo">
+    <img src="assets/img/vite.svg" class="logo" alt="Vite logo" />
+    BlackJack-Vite
+    <img src="assets/img/javascript.svg" class="logo vanilla" alt="JavaScript logo" />
+  </header>
+  <div class="row mt-2">
+    <div id="divBotones" class="col text-center">
+      <button id="btn_nuevo" class="btn btn-success">Nuevo Juego</button>
+      <button id="btn_pedir" disabled="true" class="btn btn-primary">Pedir carta</button>
+      <button id="btn_detener" disabled="true" class="btn btn-danger">Detener</button>
+    </div>
+  </div>
+  <div class="row container">
+    <div class="col text-center">
+      <h1>Jugador 1 - <small>0</small></h1>
+      <div id="jugador-cartas" class="divCartas">
+        <!-- <img class="carta" src="assets/cartas/2C.png"> -->
+      </div>
+    </div>
+  </div>
+  <div class="row container mt-2">
+    <div class="col text-center">
+      <h1>Computadora 0 - <small>0</small></h1>
+      <div id="computadora-cartas" class="divCartas">
+        <!-- <img class="carta" src="assets/cartas/2C.png"> -->
+      </div>
+    </div>
+  </div>
+  <div id="app"></div>
+  
+</body>
+
+</html>
