@@ -1,5 +1,7 @@
 ## BlackJack Vite
 
+Github Pages https://darubiano.github.io/blackjack-vite/
+
 Pasos para ejecutar proyecto:
 
 1. Clonar repositorio
